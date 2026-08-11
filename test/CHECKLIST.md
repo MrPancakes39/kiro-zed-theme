@@ -34,7 +34,7 @@ table in `README.md`. Record discrepancies in the mismatch table below.
 | --------------- | :-------: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `changes.diff`  |    [x]    |    [x]     |                                                                                                                                                                |
 | `css.css`       |    [x]    |    [x]     | Accepted divergence:<br/>Zed keeps CSS values syntax-specific (pink/red) instead of<br/>Kiro's broad blue property-value scope; the extra contrast is clearer. |
-| `html.html`     |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `html.html`     |    [x]    |    [x]     | Accepted divergences in Light: doctype and HTML entity colors. Embedded CSS follows the accepted CSS divergence above. Sidebar placement is layout only.       |
 | `json.json`     |    [ ]    |    [ ]     |                                                                                                                                                                |
 | `markdown.md`   |    [ ]    |    [ ]     |                                                                                                                                                                |
 | `python.py`     |    [ ]    |    [ ]     |                                                                                                                                                                |
@@ -58,7 +58,8 @@ table in `README.md`. Record discrepancies in the mismatch table below.
 
 | Theme | File and line | Token | Kiro color | Zed color | Resolution |
 | ----- | ------------- | ----- | ---------- | --------- | ---------- |
-|       |               |       |            |           |            |
+| Kiro Light | `html.html:1` | `!doctype html` | Blue/orange | Purple | Accepted divergence |
+| Kiro Light | `html.html:6`, `html.html:15` | `&amp;`, `&nbsp;` | Default foreground | Red | Accepted divergence |
 
 ## Sign-off
 
