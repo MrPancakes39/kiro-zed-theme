@@ -30,21 +30,21 @@ directory as versioned test records.
 Mark a theme complete only after comparing all syntax described in the fixture
 table in `README.md`. Record discrepancies in the mismatch table below.
 
-| Fixture         | Kiro Dark | Kiro Light | Notes |
-| --------------- | :-------: | :--------: | ----- |
-| `changes.diff`  |    [x]    |    [x]     |       |
-| `css.css`       |    [ ]    |    [ ]     |       |
-| `html.html`     |    [ ]    |    [ ]     |       |
-| `json.json`     |    [ ]    |    [ ]     |       |
-| `markdown.md`   |    [ ]    |    [ ]     |       |
-| `python.py`     |    [ ]    |    [ ]     |       |
-| `rust.rs`       |    [ ]    |    [ ]     |       |
-| `shell.sh`      |    [ ]    |    [ ]     |       |
-| `sql.sql`       |    [ ]    |    [ ]     |       |
-| `toml.toml`     |    [ ]    |    [ ]     |       |
-| `tsx.tsx`       |    [ ]    |    [ ]     |       |
-| `typescript.ts` |    [ ]    |    [ ]     |       |
-| `yaml.yaml`     |    [ ]    |    [ ]     |       |
+| Fixture         | Kiro Dark | Kiro Light | Notes                                                                                                                                                          |
+| --------------- | :-------: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `changes.diff`  |    [x]    |    [x]     |                                                                                                                                                                |
+| `css.css`       |    [x]    |    [x]     | Accepted divergence:<br/>Zed keeps CSS values syntax-specific (pink/red) instead of<br/>Kiro's broad blue property-value scope; the extra contrast is clearer. |
+| `html.html`     |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `json.json`     |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `markdown.md`   |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `python.py`     |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `rust.rs`       |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `shell.sh`      |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `sql.sql`       |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `toml.toml`     |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `tsx.tsx`       |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `typescript.ts` |    [ ]    |    [ ]     |                                                                                                                                                                |
+| `yaml.yaml`     |    [ ]    |    [ ]     |                                                                                                                                                                |
 
 ## UI-state comparison
 
