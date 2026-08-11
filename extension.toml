@@ -1,7 +1,7 @@
 id = "kiro-theme"
-name = "Kiro Theme"
+name = "Kiro Default Themes"
 version = "0.1.0"
 schema_version = 1
 authors = ["MrPancakes39"]
-description = "Kiro's dark and light color themes, ported to Zed"
+description = "Exact ports of Kiro's built-in default dark and light themes"
 repository = "https://github.com/MrPancakes39/kiro-zed-theme"
