@@ -6,24 +6,24 @@ directory as versioned test records.
 
 ## Test run
 
-| Field            | Value |
-| ---------------- | ----- |
-| Theme version    |       |
-| Git commit       |       |
-| Kiro version     |       |
-| Zed version      |       |
-| Operating system |       |
-| Tester           |       |
-| Date             |       |
+| Field            | Value        |
+| ---------------- | ------------ |
+| Theme version    | 0.1.0        |
+| Git commit       | 34e765e      |
+| Kiro version     | 1.0.288      |
+| Zed version      | 1.14.2       |
+| Operating system | pop-os 24.04 |
+| Tester           | Sal Hasan    |
+| Date             | 2026-08-11   |
 
 ## Setup
 
 | Check                                                                        | Complete | Notes |
 | ---------------------------------------------------------------------------- | :------: | ----- |
-| Open the `test` directory in Kiro and Zed                                    |   [ ]    |       |
-| Use the same font family, size, zoom, and tab width                          |   [ ]    |       |
-| Disable selection, search matches, active-line highlighting, and inlay hints |   [ ]    |       |
-| Place both editors side by side on the same fixture                          |   [ ]    |       |
+| Open the `test` directory in Kiro and Zed                                    |   [x]    |       |
+| Use the same font family, size, zoom, and tab width                          |   [x]    |       |
+| Disable selection, search matches, active-line highlighting, and inlay hints |   [~]    |       |
+| Place both editors side by side on the same fixture                          |   [x]    |       |
 
 ## Fixture comparison
 
@@ -32,19 +32,19 @@ table in `README.md`. Record discrepancies in the mismatch table below.
 
 | Fixture         | Kiro Dark | Kiro Light | Notes |
 | --------------- | :-------: | :--------: | ----- |
-| `tsx.tsx`       |    [ ]    |    [ ]     |       |
-| `typescript.ts` |    [ ]    |    [ ]     |       |
-| `html.html`     |    [ ]    |    [ ]     |       |
+| `changes.diff`  |    [x]    |    [x]     |       |
 | `css.css`       |    [ ]    |    [ ]     |       |
+| `html.html`     |    [ ]    |    [ ]     |       |
 | `json.json`     |    [ ]    |    [ ]     |       |
 | `markdown.md`   |    [ ]    |    [ ]     |       |
 | `python.py`     |    [ ]    |    [ ]     |       |
 | `rust.rs`       |    [ ]    |    [ ]     |       |
 | `shell.sh`      |    [ ]    |    [ ]     |       |
-| `yaml.yaml`     |    [ ]    |    [ ]     |       |
-| `toml.toml`     |    [ ]    |    [ ]     |       |
 | `sql.sql`       |    [ ]    |    [ ]     |       |
-| `changes.diff`  |    [ ]    |    [ ]     |       |
+| `toml.toml`     |    [ ]    |    [ ]     |       |
+| `tsx.tsx`       |    [ ]    |    [ ]     |       |
+| `typescript.ts` |    [ ]    |    [ ]     |       |
+| `yaml.yaml`     |    [ ]    |    [ ]     |       |
 
 ## UI-state comparison
 
