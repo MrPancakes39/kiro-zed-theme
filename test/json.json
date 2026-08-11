@@ -1,0 +1,12 @@
+{
+  "name": "Kiro \u2192 Zed",
+  "enabled": true,
+  "disabled": false,
+  "missing": null,
+  "count": 42,
+  "ratio": 0.625,
+  "colors": ["#b080ff", "#8dc8fb", "#80ffb5"],
+  "nested": {
+    "escaped": "line one\nline two"
+  }
+}

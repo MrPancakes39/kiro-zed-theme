@@ -1,0 +1,18 @@
+---
+name: Kiro Dark
+enabled: true
+disabled: false
+missing: null
+count: 42
+ratio: 0.625
+date: 2026-08-11
+colors: &palette
+  - "#b080ff"
+  - '#8dc8fb'
+  - !!str 80ffb5
+copy: *palette
+description: |
+  A block string with punctuation: <tag> and ${variable}.
+folded: >-
+  This text is folded
+  onto one line.

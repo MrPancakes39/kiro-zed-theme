@@ -1,0 +1,23 @@
+# Visual syntax-highlighting fixture
+name = "Kiro Dark"
+enabled = true
+count = 42
+ratio = 0.625
+released_at = 2026-08-11T12:30:00+03:00
+colors = ["#b080ff", "#8dc8fb", "#80ffb5"]
+multiline = """
+Line one with an escape: \t
+Line two.
+"""
+
+[editor]
+font.family = "Berkeley Mono"
+font.size = 14
+
+[[themes]]
+name = "Kiro Dark"
+appearance = "dark"
+
+[[themes]]
+name = "Kiro Light"
+appearance = "light"

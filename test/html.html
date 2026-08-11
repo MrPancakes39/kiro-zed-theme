@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- HTML comment -->
+    <meta charset="utf-8" />
+    <title>Kiro &amp; Zed</title>
+    <style>
+      :root { --accent: #b080ff; }
+      .card:hover { color: var(--accent); }
+    </style>
+  </head>
+  <body class="theme dark" data-ready="true">
+    <main id="content" aria-label="Theme comparison">
+      <app-card status="ready">
+        Text&nbsp;<strong>inside</strong> a custom element.
+      </app-card>
+    </main>
+    <script>
+      const message = `ready: ${document.readyState}`;
+      console.log(message);
+    </script>
+  </body>
+</html>

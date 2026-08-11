@@ -1,0 +1,17 @@
+/* Selectors, values, functions, units, and punctuation */
+:root {
+  --accent-color: #b080ff;
+  --space: 0.75rem;
+}
+
+@media (width >= 48rem) {
+  #app > .card:is(:hover, :focus-visible)::before {
+    content: "Theme \2192  Kiro";
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10rem, 1fr));
+    margin: calc(var(--space) * 2);
+    color: rgb(176 128 255 / 90%);
+    background: linear-gradient(135deg, #19161d, transparent);
+    border: 1px solid currentColor;
+  }
+}
