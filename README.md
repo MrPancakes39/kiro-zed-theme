@@ -2,6 +2,16 @@
 
 Kiro's built-in dark and light color themes, ported to [Zed](https://zed.dev/).
 
+## Screenshots
+
+### Welcome screen
+
+![Kiro theme applied to Zed's welcome screen](assets/theme_welcome.png)
+
+### Editor
+
+![Kiro theme applied to Zed's code editor](assets/theme_code.png)
+
 ## Included themes
 
 - Kiro Dark
