@@ -1,6 +1,8 @@
-# Kiro Theme for Zed
+# Kiro Default Themes for Zed
 
-Kiro's built-in dark and light color themes, ported to [Zed](https://zed.dev/).
+Faithful ports of Kiro's built-in dark and light color themes for
+[Zed](https://zed.dev/). They bring Kiro's understated palette and comfortable
+contrast to Zed while preserving the character of the original themes.
 
 ## Screenshots
 
@@ -19,6 +21,10 @@ Kiro's built-in dark and light color themes, ported to [Zed](https://zed.dev/).
 
 The port covers Zed's interface, editor, syntax highlighting, diagnostics, Git
 states and diffs, collaboration cursors, and terminal ANSI colors.
+
+Both themes are intended to feel complete throughout the editor, whether you
+are writing code, reviewing a diff, working in the terminal, or navigating
+Zed's panels and menus.
 
 ## Install for development
 
