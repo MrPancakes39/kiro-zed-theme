@@ -37,14 +37,14 @@ table in `README.md`. Record discrepancies in the mismatch table below.
 | `html.html`     |    [x]    |    [x]     | Accepted divergences in Light: doctype and HTML entity colors. Embedded CSS follows the accepted CSS divergence above. Recheck Light.          |
 | `json.json`     |    [x]    |    [x]     | Dark divergences accepted. Light now uses blue booleans/null and vivid-red escapes; pending visual recheck.                                    |
 | `markdown.md`   |    [x]    |    [x]     | Dark compared; Markdown grammar divergences are recorded below. Embedded TSX follows the `tsx.tsx` comparison.                                 |
-| `python.py`     |    [ ]    |    [ ]     |                                                                                                                                                |
-| `rust.rs`       |    [ ]    |    [ ]     |                                                                                                                                                |
-| `shell.sh`      |    [ ]    |    [ ]     |                                                                                                                                                |
-| `sql.sql`       |    [ ]    |    [ ]     |                                                                                                                                                |
-| `toml.toml`     |    [ ]    |    [ ]     |                                                                                                                                                |
-| `tsx.tsx`       |    [ ]    |    [ ]     |                                                                                                                                                |
-| `typescript.ts` |    [ ]    |    [ ]     |                                                                                                                                                |
-| `yaml.yaml`     |    [ ]    |    [ ]     |                                                                                                                                                |
+| `python.py`     |    [x]    |    [x]     |                                                                                                                                                |
+| `rust.rs`       |    [x]    |    [x]     |                                                                                                                                                |
+| `shell.sh`      |    [x]    |    [x]     |                                                                                                                                                |
+| `sql.sql`       |    [x]    |    [x]     |                                                                                                                                                |
+| `toml.toml`     |    [x]    |    [x]     |                                                                                                                                                |
+| `tsx.tsx`       |    [x]    |    [x]     |                                                                                                                                                |
+| `typescript.ts` |    [x]    |    [x]     |                                                                                                                                                |
+| `yaml.yaml`     |    [x]    |    [x]     |                                                                                                                                                |
 
 ## UI-state comparison
 
@@ -80,7 +80,7 @@ table in `README.md`. Record discrepancies in the mismatch table below.
 
 | Check                                                               | Complete | Notes |
 | ------------------------------------------------------------------- | :------: | ----- |
-| Every mismatch is recorded above                                    |   [ ]    |       |
-| New language-specific mismatches have minimized regression fixtures |   [ ]    |       |
-| Kiro Dark matches                                                   |   [ ]    |       |
-| Kiro Light matches                                                  |   [ ]    |       |
+| Every mismatch is recorded above                                    |   [~]    |       |
+| New language-specific mismatches have minimized regression fixtures |   [x]    |       |
+| Kiro Dark matches                                                   |   [~]    |       |
+| Kiro Light matches                                                  |   [~]    |       |
