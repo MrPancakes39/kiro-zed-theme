@@ -219,7 +219,10 @@
           "character.special": { "color": "#ff8080" },
           "comment": { "color": "#a6a5a8", "font_style": "italic" },
           "comment.doc": { "color": "#a6a5a8", "font_style": "italic" },
-          "comment.documentation": { "color": "#a6a5a8", "font_style": "italic" },
+          "comment.documentation": {
+            "color": "#a6a5a8",
+            "font_style": "italic"
+          },
           "comment.error": { "color": "#ff8080", "font_style": "italic" },
           "comment.hint": { "color": "#b080ff", "font_style": "italic" },
           "comment.info": { "color": "#8dc8fb", "font_style": "italic" },
@@ -536,7 +539,10 @@
           "character.special": { "color": "#993333" },
           "comment": { "color": "#6d6971", "font_style": "italic" },
           "comment.doc": { "color": "#6d6971", "font_style": "italic" },
-          "comment.documentation": { "color": "#6d6971", "font_style": "italic" },
+          "comment.documentation": {
+            "color": "#6d6971",
+            "font_style": "italic"
+          },
           "comment.error": { "color": "#993333", "font_style": "italic" },
           "comment.hint": { "color": "#7138cc", "font_style": "italic" },
           "comment.info": { "color": "#2d6a9f", "font_style": "italic" },

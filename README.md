@@ -14,6 +14,31 @@ contrast to Zed while preserving the character of the original themes.
 
 ![Kiro theme applied to Zed's code editor](assets/theme_code.png)
 
+## Theme Comparison
+
+The screenshots below apply both themes to the same HTML example, making their
+contrast and color treatment easy to compare directly.
+
+|                       [Marketplace Kiro theme](https://github.com/Takk8IS/kiro-theme-for-zed)                       |            [Kiro Default Themes (this project)](https://github.com/MrPancakes39/kiro-zed-theme)            |
+| :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+| [![HTML displayed with the marketplace Kiro theme](assets/comparison/html_old.png)](assets/comparison/html_old.png) | [![HTML displayed with Kiro Default Dark](assets/comparison/html_new.png)](assets/comparison/html_new.png) |
+
+The marketplace theme uses a softer, more muted treatment across the editor
+interface. This Kiro Dark increases the separation between text and
+surfaces, uses a darker elevated interface color, and gives the purple accent a
+more visible role. Its syntax colors are also more deliberately separated so
+HTML, embedded CSS, and JavaScript tokens remain distinct in the mixed-language
+example.
+
+The theme picker is visible in both screenshots to identify the active theme:
+`Kiro Dark` is the marketplace theme, while `Kiro Default Dark` is this
+project's theme.
+
+### Repositories
+
+- [Takk8IS/kiro-theme-for-zed](https://github.com/Takk8IS/kiro-theme-for-zed)
+- [MrPancakes39/kiro-zed-theme](https://github.com/MrPancakes39/kiro-zed-theme)
+
 ## Included themes
 
 - Kiro Dark
